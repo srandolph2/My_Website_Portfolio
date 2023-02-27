@@ -147,13 +147,13 @@
 					</header>
 					<div class="row">
 						<div class="col-12">
-							<form method="post" action="mailto:samrandolphdev@gmail.com" enctype=”text/plain” name=”EmailForm” data-netlify="true">
+							<form action="https://formsubmit.co/samrandolphdev@gmail.com" method="POST" enctype=”text/plain” name=”EmailForm” data-netlify="true">
 								<div class="row">
 									<div class="col-6 col-12-small">
-										<input type="text" name="name" id="name" placeholder="Name" />
+										<input type="text" name="name" id="name" placeholder="Name"  required/>
 									</div>
 									<div class="col-6 col-12-small">
-										<input type="text" name="email" id="email" placeholder="Email" />
+										<input type="text" name="email" id="email" placeholder="Email" required />
 									</div>
 									<div class="col-12">
 										<input type="text" name="subject" id="subject" placeholder="Subject" />
@@ -161,6 +161,13 @@
 									<div class="col-12">
 										<textarea name="message" id="message" placeholder="Message"></textarea>
 									</div>
+									
+									<!--ADDED FROM formsubmit.io-->
+									<input type="hidden" name="_subject" value="New submission!">
+									
+									<input type="hidden" name="_autoresponse" value="I have received your email and will respond promptly. I'm looking forward to building your new website!">
+									
+									<input type="hidden" name="_template" value="box">
 									<div class="col-12">
 										<ul class="actions">
 											<li><input type="submit" value="Send Message" /></li>
