@@ -1531,7 +1531,8 @@ input, select, textarea {
 		border-radius: 8px;
 		border: solid 1px #ddd;
 		background: #fff;
-		color: #bbb;
+		color: #FFFFFF;
+		font-weight: bold; /*White color and bold so parents can see form*/
 		box-shadow: inset 0px 2px 3px 1px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025);
 		width: 100%;
 	}
@@ -1554,19 +1555,19 @@ input, select, textarea {
 	}
 
 	form ::-webkit-input-placeholder {
-		color: #555 !important;
+		color: white !important;
 	}
 
 	form :-moz-placeholder {
-		color: #555 !important;
+		color: white !important;
 	}
 
 	form ::-moz-placeholder {
-		color: #555 !important;
+		color: white !important;
 	}
 
 	form :-ms-input-placeholder {
-		color: #555 !important;
+		color: white !important;
 	}
 
 	form ::-moz-focus-inner {
@@ -2010,7 +2011,7 @@ input, select, textarea {
 
 		.wrapper.style4 {
 			background-color: #584372;
-			color: #999;
+			color: white;
 			text-shadow: -1px -1px 0px #181818;
 		}
 
